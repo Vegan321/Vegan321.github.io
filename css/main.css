@@ -1196,7 +1196,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff1fa7;
+  background: #01a2ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2590,4 +2590,13 @@ ul.breadcrumb li + li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background: url("/images/pants.jpg") fixed 50% 50%/cover no-repeat;
+}
+.content-wrap {
+  opacity: 0.9;
+}
+.main-inner {
+  opacity: 0.98;
 }
